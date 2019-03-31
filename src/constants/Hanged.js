@@ -224,24 +224,29 @@ export const p5 = {
     },
     {
       rank: 7.5,
-      requirement: "MAX Guts Required",
+      requirement: 'MAX Guts Required',
       responses: [
         {
           number: 1,
-          options: [{ text: 'How so?', points: 0 }, { text: 'What have you found?', points: 0 }]
+          options: [
+            { text: 'It most definitely was.', points: 0 },
+            { text: 'I did it all for Iwai.', points: 3 },
+            { text: 'Actually, it’s been fun.', points: 2 }
+          ]
         },
         {
           number: 2,
           options: [
-            { text: 'Tell me his name.', points: 0 },
-            { text: 'What’s Fukurai’s first name?', points: 0 }
+            { text: 'I will.', points: 2 },
+            { text: 'I want to help you.', points: 2 },
+            { text: 'I can’t.', points: 3 }
           ]
         },
         {
           number: 3,
           options: [
-            { text: 'I can’t tell you.', points: 0 },
-            { text: 'Don’t worry about it.', points: 0 }
+            { text: 'What’s his full name?', points: 0 },
+            { text: 'Tell me his name', points: 0 }
           ]
         }
       ]
@@ -251,19 +256,19 @@ export const p5 = {
       responses: [
         {
           number: 1,
-          options: [{ text: 'I had no idea.', points: 2 }, { text: 'I know.', points: 3 }]
+          options: [
+            { text: 'It’s not impossible.', points: 0 },
+            { text: 'I dunno.', points: 2 },
+            { text: 'He’s matured.', points: 0 }
+          ]
         },
         {
           number: 2,
           options: [
-            { text: 'I’m glad to hear that.', points: 3 },
-            { text: 'That’s some good luck.', points: 3 },
-            { text: 'It’s because you’re strong.', points: 3 }
+            { text: 'I’m back, baby.', points: 2 },
+            { text: 'I guess I could consider it.', points: 3 },
+            { text: 'If you pay me well.', points: 2 }
           ]
-        },
-        {
-          number: 3,
-          options: [{ text: 'Why do you ask?', points: 0 }, { text: 'Hell yea I am.', points: 3 }]
         }
       ]
     },
@@ -273,25 +278,47 @@ export const p5 = {
         {
           number: 1,
           options: [
-            { text: 'You really don’t understand.', points: 0 },
-            { text: 'Listen to what Chihaya’s saying.', points: 0 }
+            { text: 'That’s great news.', points: 2 },
+            { text: 'I feel bad for him.', points: 0 },
+            { text: 'Are you sure he’s alive?', points: 3 }
           ]
         },
         {
           number: 2,
           options: [
-            { text: 'Do you regret what you did?', points: 0 },
-            { text: 'Well, fate can be changed.', points: 3 },
-            { text: 'That’s all in the past now.', points: 2 }
+            { text: 'Who’s Masa?', points: 0 },
+            { text: 'Will Karou be OK?', points: 0 },
           ]
         },
         {
           number: 3,
           options: [
-            { text: 'I like having my fortune read.', points: 0, romance: false },
-            { text: 'So I can be with you.', points: 0, romance: true }
+            { text: 'We should hurry.', points: 0 },
+            { text: 'Let’s close up shop.', points: 0 }
+          ]
+        },
+        {
+          number: 4,
+          options: [
+            { text: 'What’s your goal here, Masa?', points: 0 },
+            { text: 'Cut the bullshit.', points: 0 }
           ]
         }
+        {
+          number: 5,
+          options: [
+            { text: 'Tell him the truth.', points: 3 },
+            { text: 'You need to trust your son.', points: 3 }
+          ]
+        },
+        {
+          number: 6,
+          options: [
+            { text: 'Karou is really strong-willed.', points: 3 },
+            { text: 'He gets that maturity from you.', points: 2 },
+            { text: 'He’s a cool kid, huh?', points: 3 }
+          ]
+        },
       ]
     },
     {
@@ -300,52 +327,24 @@ export const p5 = {
         {
           number: 1,
           options: [
-            { text: 'You’ve never been here?', points: 0 },
-            { text: 'It wasn’t that far away.', points: 0 }
+            { text: 'It’s up to you now, Iwai.', points: 3 },
+            { text: 'Kaoru won’t lose.', points: 3 },
+            { text: 'Iwai’s kind of slow.', points: 0 }
           ]
         },
         {
           number: 2,
           options: [
-            { text: 'I support you.', points: 3 },
-            { text: 'You have strong convictions.', points: 3 }
+            { text: 'I couldn’t leave him.', points: 0 },
+            { text: 'It was for the special menu.', points: 0 }
           ]
         },
         {
           number: 3,
           options: [
-            { text: 'I wonder if you’re right…', points: 0 },
-            { text: 'So what if I am the Trickster?', points: 0 },
-            { text: '	You’re pretty sharp.', points: 0 }
-          ]
-        },
-        {
-          number: 4,
-          options: [
-            { text: 'It’s not a problem.', points: 0 },
-            { text: 'Are you worried about me?', points: 0 },
-            { text: 'What does it mean?', points: 0 }
-          ]
-        },
-        {
-          number: 5,
-          options: [
-            { text: 'Thank you, Chihaya.', points: 0 },
-            { text: 'That’s really reassuring.', points: 0 }
-          ]
-        },
-        {
-          number: 6,
-          options: [
-            { text: 'I don’t care about that.', points: 2 },
-            { text: 'It’s actually pretty cute.', points: 3 }
-          ]
-        },
-        {
-          number: 7,
-          options: [
-            { text: 'I was hoping you’d say that.', points: 0 },
-            { text: 'I don’t want to go home.', points: 0 }
+            { text: 'It’s a coincidence.', points: 0 },
+            { text: 'Should we close up?', points: 0 },
+            { text: 'What if you’re right?', points: 2 }
           ]
         }
       ]
