@@ -101,30 +101,32 @@ export const p5 = {
         {
           number: 1,
           options: [
-            { text: 'You’re only realizing that now?', points: 0 },
-            { text: 'Do you want to test it again?', points: 0 }
+            { text: 'Iwai.', points: 0 },
+            { text: 'I can’t tell you.', points: 0 },
+            { text: 'It’s none of your business.', points: 0 }
           ]
         },
         {
           number: 2,
           options: [
-            { text: 'Strengthen your will.', points: 2 },
-            { text: 'I don’t know.', points: 0 },
-            { text: 'Trust in yourself.', points: 3 }
+            { text: 'What was that about?', points: 0 },
+            { text: 'So that was Tsuda?', points: 0 },
+            { text: 'What did he mean, “sell” him?', points: 0 }
           ]
         },
         {
           number: 3,
           options: [
-            { text: 'Tell me more.', points: 0 },
-            { text: 'That sounds so peaceful.', points: 0 }
+            { text: 'Hong Kong mafia.', points: 0 },
+            { text: 'A 100 million yen deal.', points: 0 }
           ]
         },
         {
           number: 4,
           options: [
-            { text: '…The chairman?', points: 0 },
-            { text: 'I’m not sure I follow.', points: 0 }
+            { text: 'Give it your all.', points: 0 },
+            { text: 'You two should play nice.', points: 2 },
+            { text: 'Where’s my reward.', points: 3 }
           ]
         }
       ]
@@ -135,21 +137,24 @@ export const p5 = {
         {
           number: 1,
           options: [
-            { text: 'You’re such a hard worker.', points: 3 },
-            { text: 'What about divine power?', points: 0 },
-            { text: '	You must have lots of free time.', points: 2 }
+            { text: 'Why not?', points: 0 },
+            { text: 'You shouldn’t lie to your son.', points: 0 }
           ]
         },
         {
           number: 2,
-          options: [{ text: 'But what?', points: 0 }, { text: 'Did you spend it all?', points: 0 }]
+          options: [
+            { text: 'You’re so kind, Iwai.', points: 0 },
+            { text: 'You’re pathetic.', points: 3 },
+            { text: 'You should call the cops.', points: 0 }
+          ]
         },
         {
           number: 3,
           options: [
-            { text: 'Who was he?', points: 0 },
-            { text: 'Maiden?', points: 0 },
-            { text: 'Are you in trouble?', points: 0 }
+            { text: 'That’s right.', points: 2 },
+            { text: 'Don’t make assumptions.', points: 0 },
+            { text: 'I’ll stick around for the guns.', points: 3 }
           ]
         }
       ]
@@ -160,31 +165,31 @@ export const p5 = {
         {
           number: 1,
           options: [
-            { text: 'I like fortune-telling.', points: 0 },
-            { text: 'She’s really cool.', points: 0 },
-            { text: 'I’m doing research for school.', points: 0 }
+            { text: 'Why would he say that?', points: 0 },
+            { text: 'No, nothing even close.', points: 0 }
           ]
         },
         {
           number: 2,
           options: [
-            { text: '…Maiden of Relief?', points: 0 },
-            { text: 'This has to be a joke.', points: 0 }
+            { text: 'He definitely does.', points: 0 },
+            { text: 'You should ask him.', points: 0 }
           ]
         },
         {
           number: 3,
           options: [
-            { text: 'This guy’s sketchy.', points: 0 },
-            { text: 'Leave her alone.', points: 0 }
+            { text: 'Our futures.', points: 3 },
+            { text: 'Girls.', points: 3 },
+            { text: 'That’s a secret.', points: 3 }
           ]
         },
         {
           number: 4,
           options: [
-            { text: 'What’s a Maiden of Relief?', points: 0 },
-            { text: 'Who thinks you’re a monster?', points: 0 },
-            { text: 'You’re just Chihaya to me.', points: 3 }
+            { text: 'Right.', points: 3 },
+            { text: 'You should tell him, Iwai.', points: 0 },
+            { text: 'You should buy us something.', points: 3 }
           ]
         }
       ]
@@ -195,15 +200,31 @@ export const p5 = {
         {
           number: 1,
           options: [
-            { text: 'You’re not wrong about that.', points: 0 },
-            { text: 'You shouldn’t have tricked them', points: 2 },
-            { text: 'I don’t think so.', points: 3 }
+            { text: 'Not at all.', points: 0 },
+            { text: 'Absolutely.', points: 3 },
+            { text: 'I guess he likes guns?', points: 2 }
+          ]
+        },
+        {
+          number: 2,
+          options: [
+            { text: 'That’s horrible.', points: 0 },
+            { text: 'He’s clever.', points: 3 },
+            { text: 'What a crafty bastard.', points: 2 }
+          ]
+        },
+        {
+          number: 3,
+          options: [
+            { text: 'Is Tsuda seriously dangerous?', points: 0 },
+            { text: 'Are you going alone?', points: 0 }
           ]
         }
       ]
     },
     {
       rank: 7.5,
+      requirement: "MAX Guts Required",
       responses: [
         {
           number: 1,
