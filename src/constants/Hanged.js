@@ -285,10 +285,7 @@ export const p5 = {
         },
         {
           number: 2,
-          options: [
-            { text: 'Who’s Masa?', points: 0 },
-            { text: 'Will Karou be OK?', points: 0 },
-          ]
+          options: [{ text: 'Who’s Masa?', points: 0 }, { text: 'Will Karou be OK?', points: 0 }]
         },
         {
           number: 3,
@@ -303,7 +300,7 @@ export const p5 = {
             { text: 'What’s your goal here, Masa?', points: 0 },
             { text: 'Cut the bullshit.', points: 0 }
           ]
-        }
+        },
         {
           number: 5,
           options: [
@@ -318,7 +315,7 @@ export const p5 = {
             { text: 'He gets that maturity from you.', points: 2 },
             { text: 'He’s a cool kid, huh?', points: 3 }
           ]
-        },
+        }
       ]
     },
     {
