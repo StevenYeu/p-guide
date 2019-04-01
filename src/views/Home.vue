@@ -1,18 +1,22 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <li v-for="games in data">
+      <Game title="games.title" />
+    </li>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
+import Game from '@/components/Game.vue'
+import { games } from '../constants/Data.js'
 export default {
-  name: "home",
+  name: 'home',
   components: {
-    HelloWorld
+    Game
+  },
+  props: {
+    data: games
   }
-};
+}
 </script>

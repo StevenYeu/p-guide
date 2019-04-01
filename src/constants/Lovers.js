@@ -387,35 +387,29 @@ export const p5 = {
         },
         {
           number: 3,
-          options: [{ text: 'What’s wrong?', points: 0 }, { text: 'It’s just the two of us.', points: 0 }]
+          options: [
+            { text: 'What’s wrong?', points: 0 },
+            { text: 'It’s just the two of us.', points: 0 }
+          ]
         },
         {
           number: 4,
-          options: [
-            { text: 'Of course.', points: 3 },
-            { text: 'Anything for you.', points: 3 }
-          ]
+          options: [{ text: 'Of course.', points: 3 }, { text: 'Anything for you.', points: 3 }]
         },
         {
           number: 5,
-          options: [
-            { text: 'I will.', points: 0 },
-            { text: 'I already am.', points: 0}
-          ]
+          options: [{ text: 'I will.', points: 0 }, { text: 'I already am.', points: 0 }]
         },
         {
           number: 6,
           options: [
-            { text: 'Of course.', points: 3\0 },
+            { text: 'Of course.', points: 3 },
             { text: 'I should be asking you.', points: 0 }
           ]
         },
         {
           number: 7,
-          options: [
-            { text: 'Couples?', points: 0 },
-            { text: 'Just once?', points: 0 }
-          ]
+          options: [{ text: 'Couples?', points: 0 }, { text: 'Just once?', points: 0 }]
         }
       ]
     }

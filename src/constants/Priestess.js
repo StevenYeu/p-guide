@@ -55,24 +55,24 @@ export const p5 = {
         {
           number: 1,
           options: [
-            { text: 'You like coffee?', points: 3 },
-            { text: 'Are you opening a café?', points: 3 },
-            { text: 'Are you starting a farm?', points: 3 }
+            { text: 'You’re very well informed.', points: 2 },
+            { text: 'Have you ever been here?', points: 0 },
+            { text: 'Stay close to me.', points: 0 }
           ]
         },
         {
           number: 2,
           options: [
-            { text: 'What do you mean?', points: 0 },
-            { text: 'So you won’t accept his offer?', points: 0 },
-            { text: 'He sounds suspicious.', points: 3 }
+            { text: 'You should have know better.', points: 2 },
+            { text: 'That was dangerous.', points: 3 },
+            { text: 'You get flustered easily huh?', points: 0 }
           ]
         },
         {
           number: 3,
           options: [
-            { text: 'This is a complex issue.', points: 3 },
-            { text: 'You might be wrong.', points: 3 }
+            { text: 'Why is it called a salon?', points: 0 },
+            { text: 'What kind of place is that?', points: 0 }
           ]
         }
       ]
@@ -83,25 +83,17 @@ export const p5 = {
         {
           number: 1,
           options: [
-            { text: 'A phantom thief wouldn’t worry', points: 2 },
-            { text: 'They won’t find out.', points: 3 },
-            { text: 'It’ll be OK, I promise. ', points: 3 }
+            { text: 'You have the wrong idea.', points: 2 },
+            { text: 'So what if we were together?', points: 0 },
+            { text: 'It’s none of your business.', points: 0 }
           ]
         },
         {
           number: 2,
           options: [
-            { text: '“I don’t want to go with you.”', points: 3 },
-            { text: '	“I’m afraid of flying.”', points: 0 },
-            { text: '“We should break up.”', points: 0 }
-          ]
-        },
-        {
-          number: 3,
-          options: [
-            { text: 'I have.', points: 3 },
-            { text: 'Not yet.', points: 3 },
-            { text: 'Too many times to count.', points: 3 }
+            { text: 'Don’t let it get to you.', points: 2 },
+            { text: 'You can change.', points: 3 },
+            { text: 'Beep boop.', points: 0 }
           ]
         }
       ]
@@ -112,41 +104,37 @@ export const p5 = {
         {
           number: 1,
           options: [
-            { text: 'That’s pricey.', points: 3 },
-            { text: 'What a rip-off.', points: 0 },
-            { text: 'It must be amazing.', points: 3 }
+            { text: 'That’s unlike you.', points: 2 },
+            { text: 'Is Thieves work distracting you?', points: 0 },
+            { text: 'I’m sure you did better than me.', points: 0 }
           ]
         },
         {
           number: 2,
-          options: [
-            { text: 'I can’t let you do that.', points: 3 },
-            { text: 'Let me cover the bill.', points: 3 },
-            { text: 'Kthx.', points: 3 }
-          ]
+          options: [{ text: 'Eiko?', points: 0 }, { text: '...Who?', points: 0 }]
         },
         {
           number: 3,
           options: [
-            { text: 'You mean… poop!? ', points: 3 },
-            { text: 'I can taste the elephant.', points: 3 },
-            { text: 'Excuse me while I vomit.', points: 3 }
+            { text: 'Don’t you have goals?', points: 0 },
+            { text: 'What about college?', points: 0 },
+            { text: 'WHat do you mean?', points: 0 }
           ]
         },
         {
           number: 4,
           options: [
-            { text: 'Hands off my cat.', points: 0 },
-            { text: 'I’d rather not think about it.', points: 0 },
-            { text: 'Let’s ask him.', points: 3 }
+            { text: 'Why do you use it?', points: 3 },
+            { text: 'That’s adorable.', points: 2 },
+            { text: 'You’re not very ladylike…', points: 0 }
           ]
         },
         {
           number: 5,
           options: [
-            { text: 'He seemed nice enough.', points: 0 },
-            { text: 'He was a little sketchy.', points: 0 },
-            { text: 'I’m not really sure', points: 3 }
+            { text: 'Do you still want to pursue it?', points: 0 },
+            { text: 'I like a woman in uniform.', points: 2 },
+            { text: 'It’s an amazing goal.', points: 3 }
           ]
         }
       ]
@@ -157,69 +145,47 @@ export const p5 = {
         {
           number: 1,
           options: [
-            { text: 'Trust who you want to trust', points: 0 },
-            { text: 'Somebody’s telling the truth', points: 3 },
-            { text: 'Trust no one.', points: 3 }
+            { text: 'Are you jealous of them?', points: 0 },
+            { text: 'That’s annoying.', points: 2 },
+            { text: 'He sounds suspicious.', points: 3 }
           ]
         },
         {
           number: 2,
           options: [
-            { text: 'Are you really considering it? ', points: 0 },
-            { text: 'You can’t give in.', points: 0 },
-            { text: 'There has to be another way.', points: 3 }
-          ]
-        },
-        {
-          number: 3,
-          options: [
-            { text: 'That doesn’t matter now.', points: 3 },
-            { text: 'You didn’t have a choice.', points: 0 },
-            { text: 'I don’t think so.', points: 3 }
+            { text: 'I got this.', points: 3 },
+            { text: 'Why do I have to do it?', points: 0 },
+            { text: 'Only if I can take it serioulsy?', points: 2 }
           ]
         }
       ]
     },
     {
       rank: 6,
-      requirement: 'Level 4 Proficiency Required',
+      requirement: 'MAX Charm Required',
       responses: [
         {
           number: 1,
           options: [
-            { text: 'That’s fascinating.', points: 3 },
-            { text: '	You’re so studious.', points: 3 },
-            { text: 'Can you make some for me?', points: 3 }
+            { text: 'We just started.', points: 2 },
+            { text: 'We’re fighting right now.', points: 0 },
+            { text: 'Love comes in many forms.', points: 3 }
           ]
         },
         {
           number: 2,
           options: [
-            { text: 'I had no idea.', points: 3 },
-            { text: 'That’s a surprise.', points: 0 },
-            { text: 'I could’ve guessed that.', points: 0 }
+            { text: 'Don’t be so pushy.', points: 0 },
+            { text: 'Back off.', points: 0 },
+            { text: 'Here, have my number instead.', points: 0 }
           ]
         },
         {
           number: 3,
           options: [
-            { text: 'You might be right.', points: 0 },
-            { text: 'That would be bad.', points: 3 },
-            { text: 'Black like coffee?', points: 3 }
-          ]
-        },
-        {
-          number: 4,
-          options: [
-            { text: 'You don’t need to apologize.', points: 0 },
-            { text: 'That guy is horrible.', points: 0 }
-          ]
-        },
-        {
-          number: 5,
-          options: [
-            { text: 'You’re not powerless.', points: 0 },
-            { text: 'Be strong, Haru.', points: 3 }
+            { text: 'No, you’re being considerate', points: 0 },
+            { text: 'You worry too much', points: 0 },
+            { text: 'Porbably a litlle.', points: 0 }
           ]
         }
       ]
@@ -230,32 +196,53 @@ export const p5 = {
         {
           number: 1,
           options: [
-            { text: 'You look exhausted.', points: 0 },
-            { text: 'Don’t overwork yourself', points: 0 },
-            { text: 'Let’s go see the nurse.', points: 0 }
+            { text: 'Do you think he like you?', points: 0 },
+            { text: 'Does Eiko know about this?', points: 0 }
           ]
         },
         {
           number: 2,
           options: [
-            { text: 'That sounds really tough…', points: 3 },
-            { text: 'You should ask some employees.', points: 0 },
-            { text: 'What do you want to do?', points: 3 }
+            { text: 'Probably a little.', points: 0 },
+            { text: 'You watch too mant soap operas.', points: 0 },
+            { text: 'He’s definitely suspicious.', points: 0 }
           ]
         },
         {
           number: 3,
           options: [
-            { text: 'What does Takakura-san think?', points: 3 },
-            { text: 'There has to be a way.', points: 3 },
-            { text: 'You should tell him that.', points: 3 }
+            { text: 'Who was their leader?', points: 0 },
+            { text: 'What gang was it?', points: 0 }
           ]
         },
         {
           number: 4,
           options: [
-            { text: 'That’s the spirit.', points: 3 },
-            { text: 'You can do it, Haru.', points: 3 }
+            { text: 'That’s a horrible story.', points: 3 },
+            { text: 'Was it though without him?', points: 2 },
+            { text: 'He was a noble mna.', points: 3 }
+          ]
+        },
+        {
+          number: 5,
+          options: [
+            { text: 'That’s a horrible story.', points: 3 },
+            { text: 'I’m sure he was happy.', points: 3 }
+          ]
+        },
+        {
+          number: 6,
+          options: [
+            { text: 'Do you have an answer?', points: 2 },
+            { text: 'You can figure that out now.', points: 2 }
+          ]
+        },
+        {
+          number: 7,
+          options: [
+            { text: 'I’m game if you are.', points: 2 },
+            { text: 'What are you going to say?', points: 0 },
+            { text: 'Refuse her, please.', points: 2 }
           ]
         }
       ]
@@ -266,25 +253,17 @@ export const p5 = {
         {
           number: 1,
           options: [
-            { text: 'The soil?', points: 3 },
-            { text: 'The planters?', points: 0 },
-            { text: 'That beetle over there?', points: 0 }
+            { text: 'He says that to all his girls.', points: 2 },
+            { text: 'That’s how he ropes you in', points: 2 },
+            { text: 'I’m not sure.', points: 0 }
           ]
         },
         {
           number: 2,
           options: [
-            { text: 'It’ll help him understand you.', points: 3 },
-            { text: 'He’s going to love it.', points: 3 },
-            { text: 'He might not like it.', points: 3 }
-          ]
-        },
-        {
-          number: 3,
-          options: [
-            { text: 'I’ll be cheering for you.', points: 3 },
-            { text: 'You’re amazing, Haru.', points: 3 },
-            { text: 'Are you sure you can do it?', points: 3 }
+            { text: 'Absoluuetly.', points: 3 },
+            { text: 'What are we going to do?', points: 2 },
+            { text: 'Eh, she deserves him.', points: 2 }
           ]
         }
       ]
@@ -295,32 +274,46 @@ export const p5 = {
         {
           number: 1,
           options: [
-            { text: 'Don’t forget to breathe.', points: 0 },
-            { text: 'Believe in yourself', points: 0 },
-            { text: 'I’m here for you, Haru.', points: 0 }
+            { text: 'Get away from her!', points: 3 },
+            { text: 'Your fight’s with me.', points: 3 },
+            { text: 'I’m calling the cops.', points: 3 }
           ]
         },
         {
           number: 2,
           options: [
-            { text: 'I’m sure you’ll do great.', points: 3 },
-            { text: 'It’ll be fine.', points: 3 },
-            { text: '	Give it all you’ve got, Haru.', points: 3 }
+            { text: 'We should get out of here.', points: 2 },
+            { text: 'Follow me.', points: 2 }
           ]
         },
         {
           number: 3,
           options: [
-            { text: 'You’re very welcome.', points: 3 },
-            { text: 'You did amazing.', points: 3 },
-            { text: 'Do I get a reward?', points: 0 }
+            { text: 'It looked like it hurt.', points: 0 },
+            { text: 'That was the right move.', points: 2 },
+            { text: 'You really smacked her.', points: 0 }
           ]
         },
         {
           number: 4,
           options: [
-            { text: 'He saw us as good friends.', points: 0, romance: false },
-            { text: 'I like you too, Haru.', points: 0, romance: true }
+            { text: 'I’m a regular here.', points: 3 },
+            { text: 'It’s a popular meeting spot', points: 3 },
+            { text: 'Not as much as you.', points: 2 }
+          ]
+        },
+        {
+          number: 5,
+          options: [
+            { text: 'You’ll find someone someday.', points: 3, romance: false },
+            { text: 'I’ll be your study partner.', points: 0, romance: true }
+          ]
+        },
+        {
+          number: 6,
+          options: [
+            { text: 'I do.', points: 3, romance: true },
+            { text: 'That’s not what I meant.', points: 0, romance: false }
           ]
         }
       ]
@@ -331,33 +324,48 @@ export const p5 = {
         {
           number: 1,
           options: [
-            { text: 'Will things be OK?', points: 0 },
-            { text: 'That’s good to hear.', points: 3 },
-            { text: 'You’ve done great, Haru.', points: 3 }
+            { text: 'That’s incredible.', points: 2 },
+            { text: 'Your slap worked wonders.', points: 0 },
+            { text: 'I’m so relieved.', points: 0 }
           ]
         },
         {
           number: 2,
           options: [
-            { text: 'I’m sure you’ll succeed.', points: 3 },
-            { text: 'This won’t be easy.', points: 3 },
-            { text: 'It all comes down to flavor.', points: 3 }
+            { text: 'Are you stressing over exams?', points: 2 },
+            { text: 'Back to studying?', points: 0 },
+            { text: 'For your sister?', points: 0 }
           ]
         },
         {
           number: 3,
           options: [
-            { text: 'If you want?', points: 0 },
-            { text: 'Probably not.', points: 0 },
-            { text: 'It’s hard work, you know.', points: 0 }
+            { text: 'Police commissioner?', points: 0 },
+            { text: 'That sounds difficult.', points: 2 },
+            { text: 'Why did you choose that?', points: 0 }
           ]
         },
         {
           number: 4,
           options: [
-            { text: 'I’m glad too.', points: 3 },
-            { text: 'Don’t deny yourself.', points: 3 },
-            { text: 'Just my teammate?', points: 3 }
+            { text: 'What an admirable goal.', points: 3 },
+            { text: 'That’s an amazing dream.', points: 2 },
+            { text: 'Your father would be proud.', points: 3 }
+          ]
+        },
+        {
+          number: 5,
+          options: [
+            { text: 'Haha, yea.', points: 0 },
+            { text: 'It’s not funny at all.', points: 0 },
+            { text: 'Just be careful. OK?', points: 2 }
+          ]
+        },
+        {
+          number: 6,
+          options: [
+            { text: 'What’s wrong?', points: 0 },
+            { text: 'Do you want to study?', points: 0 }
           ]
         }
       ]

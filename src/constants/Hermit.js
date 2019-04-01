@@ -339,8 +339,7 @@ export const p5 = {
             { text: 'Took you long enough to ask.', points: 3 },
             { text: 'I want that right too.', points: 3 }
           ]
-        },
-        s
+        }
       ]
     }
   ]
