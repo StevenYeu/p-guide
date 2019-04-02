@@ -13,7 +13,7 @@
       </div>
 
       <div class="content">
-        <a>Guide</a>
+        <a>{{ guide }}</a>
         <br />
         <a href="#">Classroom Questions</a>
       </div>
@@ -29,7 +29,8 @@ export default {
       type: String,
       default: 'Game Title'
     },
-    img: String
+    img: String,
+    guide: String
   }
 }
 </script>

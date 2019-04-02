@@ -2,7 +2,7 @@
   <div class="home">
     <div class="columns">
       <div v-for="game in data" v-bind:key="game.id" class="column">
-        <Game :title="game.title" :img="game.img" />
+        <Game :title="game.title" :img="game.img" :guide="game.guide" />
       </div>
     </div>
   </div>
