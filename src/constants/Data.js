@@ -12,6 +12,10 @@ import { p5 as p5Moon } from './Moon'
 import { p5 as p5Priestess } from './Priestess'
 import { p5 as p5Star } from './Star'
 import { p5 as p5Tower } from './Tower'
+import p5cover from '../assets/p5cover.png'
+import p4cover from '../assets/p4cover.jpg'
+import p3cover from '../assets/p3cover.jpg'
+
 export const persona5 = {
   confidants: [
     p5Chariot,
@@ -32,6 +36,7 @@ export const persona5 = {
 }
 
 export const games = [
-  { title: 'Persona 5', imag: '../assets/p5cover.png' },
-  { title: 'Persona 4', img: '../assets/p4cover.jpg' }
+  { id: 1, title: 'Persona 5', img: p5cover },
+  { id: 2, title: 'Persona 4', img: p4cover },
+  { id: 3, title: 'Persona 3', img: p3cover }
 ]

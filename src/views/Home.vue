@@ -1,8 +1,10 @@
 <template>
   <div class="home">
-    <li v-for="games in data">
-      <Game title="games.title" />
-    </li>
+    <div class="columns">
+      <div v-for="game in data" v-bind:key="game.id" class="column">
+        <Game :title="game.title" :img="game.img" />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -15,8 +17,18 @@ export default {
   components: {
     Game
   },
-  props: {
-    data: games
+  data: function() {
+    return {
+      data: games
+    }
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.home {
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+</style>
