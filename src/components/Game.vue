@@ -13,7 +13,9 @@
       </div>
 
       <div class="content">
-        <a>{{ guide }}</a>
+        <a>
+          <router-link :to="`${path}/guide`">{{ guide }}</router-link>
+        </a>
         <br />
         <a href="#">Classroom Questions</a>
       </div>
@@ -30,7 +32,8 @@ export default {
       default: 'Game Title'
     },
     img: String,
-    guide: String
+    guide: String,
+    path: String
   }
 }
 </script>

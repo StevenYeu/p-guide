@@ -36,7 +36,7 @@ export const persona5 = {
 }
 
 export const games = [
-  { id: 1, title: 'Persona 5', img: p5cover, guide: 'Confidant Guide' },
-  { id: 2, title: 'Persona 4', img: p4cover, guide: 'Social Link Guide' },
-  { id: 3, title: 'Persona 3', img: p3cover, guide: 'Social Link Guide' }
+  { id: 1, title: 'Persona 5', img: p5cover, guide: 'Confidant Guide', path: '/p5' },
+  { id: 2, title: 'Persona 4', img: p4cover, guide: 'Social Link Guide', path: '/p4' },
+  { id: 3, title: 'Persona 3', img: p3cover, guide: 'Social Link Guide', path: '/p3' }
 ]

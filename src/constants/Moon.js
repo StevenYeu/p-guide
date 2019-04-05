@@ -1,6 +1,6 @@
 export const p5 = {
-  arcana: 'Hanged',
-  name: 'Munehisa Iwai',
+  arcana: 'Moom',
+  name: 'Yuuki Mishima',
   benefits: [
     {
       rank: 1,
